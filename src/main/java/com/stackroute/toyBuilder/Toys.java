@@ -1,10 +1,11 @@
 package com.stackroute.toyBuilder;
 
-public class Parameters {
-//    declaration of variables
+public class Toys {
+    //    declaration of variables
     private int price;
     private String colour;
-// getters and setters
+
+    // getters and setters
     public int getPrice() {
         return price;
     }
@@ -21,16 +22,15 @@ public class Parameters {
         this.colour = colour;
     }
 
-    public void nonMovableToys()
-    {
+    public void nonMovableToys() {
         System.out.println("This does not move");
     }
-    public void toysMoving()
-    {
+
+    public void toysMoving() {
         System.out.println("This moves");
     }
-    public void toysFlying()
-    {
+
+    public void toysFlying() {
         System.out.println("This flies");
     }
 }
